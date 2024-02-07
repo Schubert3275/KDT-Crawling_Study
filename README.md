@@ -1,4 +1,4 @@
-### DAY01
+### DAY01 <hr>
     데이터 크롤링과 정제: 크롤링 개념
     - 웹 스크레이핑과 웹 크롤링 개념
     - Beautiful Soup 소개
@@ -45,4 +45,4 @@
     - HTML Table 구성 태그
 
 - chap01_css_ex.html
-    - 고급 HTML 분석: CSS 스타일
+    - 고급 HTML 분석: CSS 스타일고급 HTML 분석: CSS 스타일
