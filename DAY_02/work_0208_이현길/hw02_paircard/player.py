@@ -14,12 +14,14 @@ class Player:
         print('\n')
 
     def display_two_card_lists(self):
+        print('=' * 100)
         print(f'[{self.name}] Open card List: {len(self.open_card_list)}')
         for i in range(len(self.open_card_list)):
             print(self.open_card_list[i], end=' ' if i % 13 != 12 else '\n')
         print('\n')
 
     def check_one_pair_card(self):
+        print('=' * 100)
         print(f'[{self.name}: 숫자가 같은 한쌍의 카드 검사]')
         count = (len(self.holding_card_list))**2
         card_list = self.holding_card_list

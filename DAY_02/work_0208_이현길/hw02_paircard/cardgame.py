@@ -21,14 +21,14 @@ def play_game():
             player1.add_card_list(dealer.deal_card())
             player2.add_card_list(dealer.deal_card())
         dealer.display_deck()
-        print('=' * 100)
+        # print('=' * 100)
         player1.check_one_pair_card()
-        print('=' * 100)
+        # print('=' * 100)
         player1.display_two_card_lists()
         player1.display_hand_card_list()
-        print('=' * 100)
+        # print('=' * 100)
         player2.check_one_pair_card()
-        print('=' * 100)
+        # print('=' * 100)
         player2.display_two_card_lists()
         player2.display_hand_card_list()
         num = 4
@@ -42,8 +42,9 @@ def play_game():
             winner = 2
             break
         input()
+    print("게임 종료")
     if winner == 0:
-        print('무승부!')
+        print("무승부!")
     elif winner == 1:
         print(player1.name, "승리!")
     else:
