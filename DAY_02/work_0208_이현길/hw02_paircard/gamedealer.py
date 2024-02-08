@@ -12,7 +12,7 @@ class GameDealer:
 
         for suit in card_suits:
             for number in card_numbers:
-                self.deck.append(Card(suit, number))
+                self.deck.append(f'{Card(suit, number)}')
 
     def display_deck(self):
         print('-' * 100)
