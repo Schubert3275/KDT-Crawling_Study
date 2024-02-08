@@ -46,3 +46,9 @@ ___
 |`chap03_regex01.ipynb`|정규 표현식|
 |`chap03_regex02.py`|정규 표현식과 BeautifulSoup #1|
 |`chap03_regex03.py`|정규 표현식과 BeautifulSoup #2|
+|`chap03_01.py`|Wikipedia 페이지 가져오기|
+|`chap03_02.py`|항목 링크 찾기|
+|`chap03_03.py`|링크간 무작위 이동하기: 소스코드|
+|`chap03_04.py`|전체 사이트에서 데이터 수집|
+|`chap03_05.py`|전체 사이트에서 데이터 수집: getLinks() 함수 수정|
+|`chap03_08_naver.py`|네이버 블로그 검색|
