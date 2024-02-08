@@ -9,6 +9,7 @@ class Player:
 
     def display_hand_card_list(self):
         print(f'[{self.name}] Holding card list: {len(self.holding_card_list)}')
+
         for i in range(len(self.holding_card_list)):
             print(self.holding_card_list[i], end=' ' if i % 13 != 12 else '\n')
         print('\n')
@@ -16,6 +17,7 @@ class Player:
     def display_two_card_lists(self):
         print('=' * 100)
         print(f'[{self.name}] Open card List: {len(self.open_card_list)}')
+
         for i in range(len(self.open_card_list)):
             print(self.open_card_list[i], end=' ' if i % 13 != 12 else '\n')
         print('\n')
@@ -23,8 +25,10 @@ class Player:
     def check_one_pair_card(self):
         print('=' * 100)
         print(f'[{self.name}: 숫자가 같은 한쌍의 카드 검사]')
+
         count = (len(self.holding_card_list))**2
         card_list = self.holding_card_list
+
         def pair_check(card_list, count):
             if count == 0:
                 return 0
@@ -43,4 +47,5 @@ class Player:
             if card1 == card_list[0]:
                 card_list = card_list[1:]
             pair_check(card_list, count-1)
+
         pair_check(card_list, count)
