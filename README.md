@@ -52,3 +52,36 @@ ___
 |`chap03_04.py`|전체 사이트에서 데이터 수집|
 |`chap03_05.py`|전체 사이트에서 데이터 수집: getLinks() 함수 수정|
 |`chap03_08_naver.py`|네이버 블로그 검색|
+
+#### DAY02 실습과제
+___
+    1. pass
+    2. pass
+
+### DAY03
+    데이터 크롤링과 정제: 데이터 저장
+    - 미디어 파일
+    - 데이터를 CSV로 저장
+    - MySQL
+    데이터 크롤링과 정제: 동적 웹페이지 크롤링
+
+___
+|파일명|내용|
+|---|---|
+|`chap06_03.py`|데이터를 CSV 파일로 저장|
+|`chap06_04.py`|테이블 데이터를 CSV로 저장|
+|`chap06_04_01.py`|테이블 데이터를 CSV로 저장: html_table_parser 사용|
+|`chap06_mysql1.py`|page 테이블에서 id값이 2인 데이터 가져오기|
+|`chap06_mysql2.py`|위키피디아의 자료를 MySQL에 저장|
+|`chrome_driver_download.py`|chromedriver 자동 다운로드 소스|
+|`selenium_01.py`|Selenium 사용 #1|
+|`selenium_02.py`|Selenium API: element 접근 예제 #1|
+|`selenium_03_send_keys.py`|Selenium API: 텍스트 입력 예제 (네이버 로그인)|
+|`selenium_04.py`|Selenium API: 구글 검색어 입력 및 검색 결과|
+|`selenium_05.py`|Selenium API: 프레임 이동 예제|
+|`selenium_06.py`|동적 웹페이지 크롤링 예제 코드|
+|`dhtml_coffeebean_01.py`|예제 코드1|
+|`dhtml_coffeebean_02.py`|예제 코드2|
+|`chap06_naverapi_ex01.py`|네이버 OpenAPI 사용: Python 샘플 코드|
+|`chap06_naverapi_ex02.py`|네이버 뉴스 검색: 단계 1|
+|`chap06_naverapi_ex03.py`|네이버 뉴스 검색: 단계 2|
