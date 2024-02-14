@@ -85,3 +85,21 @@ ___
 |`chap06_naverapi_ex01.py`|네이버 OpenAPI 사용: Python 샘플 코드|
 |`chap06_naverapi_ex02.py`|네이버 뉴스 검색: 단계 1|
 |`chap06_naverapi_ex03.py`|네이버 뉴스 검색: 단계 2|
+
+#### DAY03 실습과제
+___
+    1. pass
+
+### DAY04
+    데이터 크롤링과 정제: 한국어 형태소 분석
+    - 자연어 처리
+    - 크롤링 및 WordCloud 생성
+
+___
+|파일명|내용|
+|---|---|
+|`okt_01.py`|Okt 간단 예제 #1|
+|`okt_02.py`|Okt 예제 #2|
+|`wordcloud_01.py`|예제: 단어 분석 및 Word Cloud 생성|
+|`wordcloud_02.py`|영문 wordcloud 예제|
+|`wordcloud_naver.py`|네이버 뉴스 타이틀 Word Cloud 예제|
